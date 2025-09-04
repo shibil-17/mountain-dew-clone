@@ -1,0 +1,283 @@
+
+body {
+    margin: 0;
+}    
+
+#topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 5px 1.7%;
+    z-index: 1000;
+    background-color: #166c48;
+
+}
+
+#logo {
+    width: 160px;
+    margin-top: 65px;
+}
+
+.link:hover {
+    color: #97d700;
+}
+.link{
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+#nav{
+    margin-left: 250px;
+}
+
+#hero {
+    padding-top: 30px;
+    height: 600px;
+    background-image: url('images/secondpic.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#textdiv , #textdiv2{
+    color: white;
+    padding-left: 2.2%;
+    padding-top: 1%;
+}
+
+#overload {
+    color: #ffe800;
+    font-size: 22px;
+    font-family: 'Bebas Neue';
+    letter-spacing: 3px;
+}
+
+#viewall {
+    font-size: 100px;
+    font-family: 'Bebas Neue';
+    letter-spacing: 3px;
+}
+
+#text {
+    margin-top: -15px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.r{
+    font-size: 10px;
+}
+.fa-arrow-down {
+    color: #ffe800;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#dew-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 65px 5.6%;
+    background: #ffffff;
+}
+
+#dew-images img {
+    width: 270px;
+    height: auto;
+    display: block;
+    border-radius: 30px;
+    transition: transform 0.3s;
+}
+
+#dew-images img:hover {
+    transform: scale(1.06);
+}
+.dewname{
+    color: #004a27;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+}
+.dewpics{
+    text-align: center;
+}
+#image2 {
+    margin: 66px;
+    border-radius: 30px;
+    height: 600px;
+    background-image: url('images/firstpic.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#button1{
+    width: 200px;
+    height: 45px;
+    color: #033e21;
+    background-color: #ffe800;
+    border: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#getdew{
+    color: #ffe800;
+    font-size: 22px;
+    font-family: 'Bebas Neue';
+    letter-spacing: 3px;
+}
+
+#findstore{
+    font-size: 100px;
+    font-family: 'Bebas Neue';
+    letter-spacing: 3px;
+    line-height: 1;
+}
+
+#text2{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#footer {
+    background-color: #004a27;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start;   
+    height: auto;
+    padding: 50px;
+    width: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#leftdiv {
+    width: 30%;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;     
+    text-align: center;    
+    align-content: center;              
+}
+
+#dodew {
+    width: 300px;
+}
+
+#footext {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#lastform {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#email, #fname, #lname {
+    border-radius: 25px;
+    border: none;
+    font-size: 13px;
+    padding: 10px 15px;
+    width: 80%;
+    align-self: center;
+}
+
+input::placeholder {
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+
+#ticktext {
+    color: white;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.4;
+}
+
+#signup {
+    background-color: #e02c3c;
+    font-size: 14px;
+    border-radius: 25px;
+    color: white;
+    padding: 12px 25px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#signup:hover {
+    background-color: #c82333;
+}
+
+#follow {
+    height: 100%;
+    width:23% ;
+    color: white;
+    margin-top: 120px;
+    margin-left: 50px;
+
+}
+
+#support {
+    height: 100%;
+    width:23% ;
+    color: white;
+     margin-top: 120px;
+
+}
+#faq {
+    height: 100%;
+    width:24% ;
+    color: white;
+     margin-top: 165px;
+ 
+}
+#checkbox {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    text-align: left;
+}
+
+
+.hed {
+    color: #97d700;
+    
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-top: 13px
+}
+
+#lastext {
+    background-color: #004a27;
+    color: #50b348;
+    padding: 10px;
+    margin: -15px;
+    width: 99.6%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
