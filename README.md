@@ -1,4 +1,6 @@
-# Mountain Dew Clone Website
+# Mountain Dew Clone
+
+🌐 **Live Demo:** [https://shibil-17.github.io/mountain-dew-clone/](https://shibil-17.github.io/mountain-dew-clone/)
 
 ## Project Description
 This is a **frontend clone of the Mountain Dew website**, built using **HTML, CSS, and JavaScript**.  
@@ -42,4 +44,9 @@ It replicates the look and feel of the original site, including the hero section
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/shibil-17/my-portfolio.git
+git clone https://github.com/shibil-17/mountain-dew-clone.git
+```
+2. **Clone the repository**
+```bash
+cd my-portfolio
+```
